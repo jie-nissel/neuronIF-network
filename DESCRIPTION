@@ -1,0 +1,29 @@
+Package: NeuronIF
+Type: Package
+Title: Activities of traveling wave propagation in integrate-and-fire neural network
+Version: 0.1.0
+Date: 2016-09-19
+Author: Jie Zhang
+Maintainer: Jie Zhang <jie.gsu@gmail.com>
+Description: 
+  In contrast to other large-scale network models for propagation of electrical
+  activity in neural tissue that have no analytical solutions for their dynamics, we show
+  that for a specific class of integrate and fire neural networks the acceleration depends
+  quadratically on the instantaneous speed of the activity propagation. We use this
+  property to analytically compute the network spike dynamics and to highlight the
+  emergence of a natural time scale for evolution of the traveling waves. These results
+  allow us to examine other applications of this model such as the effect that a nonconductive
+  gap of tissue has on further activity propagation. Furthermore we show
+  that activity propagation also depends on local conditions for other more general
+  connectivity functions, by converting the evolution equations for network dynamics
+  into a low-dimensional system of ordinary differential equations. This approach
+  greatly enhances our intuition into the mechanisms of the traveling waves evolution
+  and significantly reduces the simulation time for this class of models.
+  Furthermore, with this package you can examine how inhomogeneities affect the dynamics of the 
+  activity propagation. 
+License: GPL-2
+LazyData: TRUE
+Imports: 
+  ggplot2 (>= 1.0.1)
+Suggests: 
+  Knitr 
