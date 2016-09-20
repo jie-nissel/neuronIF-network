@@ -6,11 +6,8 @@ Date: 2016-09-19
 Author: Jie Zhang
 Maintainer: Jie Zhang <jie.gsu@gmail.com>
 Description: 
-  In contrast to other large-scale network models for propagation of electrical
-  activity in neural tissue that have no analytical solutions for their dynamics, we show
-  that for a specific class of integrate-and-fire neural network the acceleration depends
-  quadratically on the instantaneous speed of the activity propagation. 
-  Furthermore, with this package you can examine how inhomogeneities affect the dynamics of the 
+  This is package to view and analyze the large-scale Integrate-and-fire neural network for propagation of electrical
+  activity in neural tissue.Furthermore, with this package you can examine how inhomogeneities affect the dynamics of the 
   activity propagation. 
 License: GPL-2
 LazyData: TRUE
